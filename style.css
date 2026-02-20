@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #0f172a, #020617);
+    color: white;
+  }
+  
+  /* HEADER */
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(2,6,23,0.8);
+    backdrop-filter: blur(10px);
+  }
+  
+  .logo {
+    color: #8b5cf6;
+    font-weight: bold;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: #cbd5f5;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: white;
+  }
+  
+  #themeToggle {
+    background: #1e293b;
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  /* SECTIONS */
+  section {
+    min-height: 100vh;
+    padding: 120px 20px;
+  }
+  
+  /* HERO */
+  .hero {
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 60px;
+    background: linear-gradient(to right, #3b82f6, #9333ea);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .buttons button {
+    margin: 10px;
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: none;
+    background: #1e293b;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* ABOUT */
+  .card {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    background: rgba(30,41,59,0.6);
+    border-radius: 20px;
+  }
+  
+  /* SKILLS */
+  .skills {
+    text-align: center;
+  }
+  
+  .skill {
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: left;
+  }
+  
+  .skill p {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bar {
+    height: 12px;
+    background: #1e293b;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 8px;
+  }
+  
+  .progress {
+    height: 100%;
+    width: 0;
+    border-radius: 20px;
+    transition: 1.5s;
+  }
+  
+  /* COLORS */
+  .html { background: linear-gradient(to right, orange, red); width: 90%; }
+  .js { background: linear-gradient(to right, gold, orange); width: 85%; }
+  .react { background: linear-gradient(to right, #3b82f6, #06b6d4); width: 80%; }
+  .python { background: linear-gradient(to right, #10b981, #3b82f6); width: 75%; }
+  .cyber { background: linear-gradient(to right, #a855f7, #ec4899); width: 70%; }
+  
+  /* CONTACT */
+  .contact-box {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    background: rgba(30,41,59,0.6);
+    border-radius: 20px;
+  }
+  
+  /* LIGHT MODE */
+  .light-mode {
+    background: #f1f5f9;
+    color: black;
+  }
+  
+  .light-mode header {
+    background: rgba(255,255,255,0.8);
+  }
